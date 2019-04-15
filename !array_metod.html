@@ -1,0 +1,470 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   Made with Remarkable!
+  </title>
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/styles/github.min.css" rel="stylesheet"/>
+  <style type="text/css">
+   li,ol,p,ul{line-height:24px}a,button,input,select,textarea{margin:0;vertical-align:baseline}a,button:hover{text-decoration:none}a,ol,ul{padding:0}hr,td,th{text-align:left}body{background:#000;font-family:Georgia,Palatino,serif;color:#EEE;line-height:1;padding:30px;margin:auto;max-width:42em}h1,h2{text-align:center}h1,h2,h3,h4{font-weight:400}h1,h2,h3,h4,h5,p{margin-bottom:24px;padding:0}h1{font-size:48px}h2{font-size:36px;margin:24px 0 6px}h3{font-size:24px}h4{font-size:21px}h5{font-size:18px}a{color:#61BFC1}a:hover{text-decoration:underline}a:visited{color:#466B6C}ol,ul{margin:0}li ul{margin-left:24px}ol,p,ul{font-size:16px;max-width:540px}pre{padding:0 24px;max-width:800px;white-space:pre-wrap}code{font-family:Consolas,Monaco,Andale Mono,monospace;line-height:1.5;font-size:13px}button,input,label,select,textarea{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}aside{display:block;float:right;width:390px}blockquote{border-left:.5em solid #eee;padding:0 2em;margin-left:0;max-width:476px}blockquote cite{font-size:14px;line-height:20px;color:#bfbfbf}blockquote p{color:#666;max-width:460px}hr{width:540px;margin:0 auto 0 0;color:#999}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}button,input[type=button],input[type=reset],input[type=submit]{cursor:pointer;-webkit-appearance:button}input:not([type=image]),textarea{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}input[type=search]{-webkit-appearance:textfield;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-decoration{-webkit-appearance:none}input,label,select,textarea{font-size:13px;line-height:normal;margin-bottom:18px}input[type=checkbox],input[type=radio]{cursor:pointer;margin-bottom:0}input[type=password],input[type=text],select,textarea{display:inline-block;width:210px;padding:4px;font-size:13px;line-height:18px;height:18px;color:gray;border:1px solid #ccc;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-webkit-transition:border linear .2s,box-shadow linear .2s;-moz-transition:border linear .2s,box-shadow linear .2s;transition:border linear .2s,box-shadow linear .2s;-webkit-box-shadow:inset 0 1px 3px rgba(0,0,0,.1);-moz-box-shadow:inset 0 1px 3px rgba(0,0,0,.1);box-shadow:inset 0 1px 3px rgba(0,0,0,.1)}input[type=file],select{height:27px;line-height:27px}textarea{height:auto}:-moz-placeholder{color:#bfbfbf}::-webkit-input-placeholder{color:#bfbfbf}input[type=password]:focus,input[type=text]:focus,textarea:focus{outline:0;border-color:rgba(82,168,236,.8);-webkit-box-shadow:inset 0 1px 3px rgba(0,0,0,.1),0 0 8px rgba(82,168,236,.6);-moz-box-shadow:inset 0 1px 3px rgba(0,0,0,.1),0 0 8px rgba(82,168,236,.6);box-shadow:inset 0 1px 3px rgba(0,0,0,.1),0 0 8px rgba(82,168,236,.6)}button{display:inline-block;padding:4px 14px;font-size:13px;line-height:18px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.2),0 1px 2px rgba(0,0,0,.05);-moz-box-shadow:inset 0 1px 0 rgba(255,255,255,.2),0 1px 2px rgba(0,0,0,.05);box-shadow:inset 0 1px 0 rgba(255,255,255,.2),0 1px 2px rgba(0,0,0,.05);background-color:#0064cd;background-repeat:repeat-x;background-image:-khtml-gradient(linear,left top,left bottom,from(#049cdb),to(#0064cd));background-image:-moz-linear-gradient(top,#049cdb,#0064cd);background-image:-ms-linear-gradient(top,#049cdb,#0064cd);background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#049cdb),color-stop(100%,#0064cd));background-image:-webkit-linear-gradient(top,#049cdb,#0064cd);background-image:-o-linear-gradient(top,#049cdb,#0064cd);background-image:linear-gradient(top,#049cdb,#0064cd);color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,.25);border:1px solid #004b9a;-webkit-transition:.1s linear all;-moz-transition:.1s linear all;transition:.1s linear all;border-color:#0064cd #0064cd #003f81;border-color:rgba(0,0,0,.1) rgba(0,0,0,.1) rgba(0,0,0,.25)}button:hover{color:#fff;background-position:0 -15px}button:active{-webkit-box-shadow:inset 0 3px 7px rgba(0,0,0,.15),0 1px 2px rgba(0,0,0,.05);-moz-box-shadow:inset 0 3px 7px rgba(0,0,0,.15),0 1px 2px rgba(0,0,0,.05);box-shadow:inset 0 3px 7px rgba(0,0,0,.15),0 1px 2px rgba(0,0,0,.05)}button::-moz-focus-inner{padding:0;border:0}mark{background-color:#ff69b4}table{border-collapse:collapse}td,th{border:1px solid #fff;padding:.5rem}.hljs{display:block;overflow-x:auto;padding:.5em;background:#2b2b2b;color:#bababa}.hljs-emphasis,.hljs-strong{color:#a8a8a2}.hljs-bullet,.hljs-link,.hljs-literal,.hljs-number,.hljs-quote,.hljs-regexp{color:#6896ba}.hljs-code,.hljs-selector-class{color:#a6e22e}.hljs-emphasis{font-style:italic}.hljs-attribute,.hljs-keyword,.hljs-name,.hljs-section,.hljs-selector-tag,.hljs-variable{color:#cb7832}.hljs-params{color:#b9b9b9}.hljs-string{color:#6a8759}.hljs-addition,.hljs-built_in,.hljs-builtin-name,.hljs-selector-attr,.hljs-selector-id,.hljs-selector-pseudo,.hljs-subst,.hljs-symbol,.hljs-template-tag,.hljs-template-variable,.hljs-type{color:#e0c46c}.hljs-comment,.hljs-deletion,.hljs-meta{color:#7f7f7f}
+  </style>
+ </head>
+ <body>
+  <h1 id="_1">
+   Массив перебирающие методы:
+  </h1>
+  <p>
+   Понедельник, 15. апреля 2019 12:25
+  </p>
+  <h2 id="_2">
+   Оглавление:
+  </h2>
+  <p>
+   <a href="#forEarch">
+    forEach
+   </a>
+   <br/>
+   <a href="#map">
+    map
+   </a>
+   <br/>
+   <a href="#filter">
+    filter
+   </a>
+   <br/>
+   <a href="#every_some">
+    every и some
+   </a>
+   <br/>
+   <a href="#reduce_reduceRight">
+    reduce и reduceRight
+   </a>
+  </p>
+  <p>
+   <a name="forEarch">
+   </a>
+  </p>
+  <h3 id="forearch">
+   <strong>
+    forEarch
+   </strong>
+  </h3>
+  <pre><code class="javascript"> var array = [1,2,3,4,5,6,7,8,9,10];
+var newArray = [];
+newArray = array.forEach(function(elem){
+    return elem *= elem;
+});
+</code></pre>
+  <p>
+   Не возращает значение! Return вернет
+   <strong>
+    undifine
+   </strong>
+  </p>
+  <pre><code class="javascript">array.forEach(function(elem){
+    newArray.push(elem *= elem);
+});
+console.log(newArray);
+</code></pre>
+  <p>
+   А так вернет массив каждый элемент которого возведен в квадрат
+  </p>
+  <p>
+   <strong>
+    <em>
+     [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+    </em>
+   </strong>
+  </p>
+  <p>
+   Просчитаем для примера ссумму элементов массива array
+  </p>
+  <pre><code class="javascript">var array = [1,2,3,4,5,6,7,8,9,10];
+var newArray = [];
+var counter = 0;
+
+array.forEach(function(elem){
+    counter += elem; 
+});
+console.log(counter);
+</code></pre>
+  <p>
+   ответ составит
+   <strong>
+    <em>
+     55
+    </em>
+   </strong>
+  </p>
+  <p>
+   <strong>
+    forEarch
+   </strong>
+   удобно применять при обработке данных из
+   <strong>
+    <em>
+     json
+    </em>
+   </strong>
+   <br/>
+   <a name="json">
+   </a>
+  </p>
+  <pre><code class="javascript">var resnonse = [
+    {
+        "index":0,
+        "isActive": true,
+        "age":20,
+        "name":"Ivan Ivanov",
+        "gender":"male",
+        "email": "ivanov@mail.ru"
+    },
+    {
+        "index":1,
+        "isActive": true,
+        "age":20,
+        "name":"Irina Sidorova",
+        "gender":"female",
+        "email": "sidorova@mail.ru"
+    },
+    {
+        "index":0,
+        "isActive": true,
+        "age":36,
+        "name":"Petr Petrov",
+        "gender":"male",
+        "email": "petrov@mail.ru"
+    }
+];
+</code></pre>
+  <p>
+   перенесем calback function из forEarch и присвоим переменной
+  </p>
+  <pre><code class="javascript">var getNames = function(elem){
+    newArray.push(elem.name);
+};
+
+response.forEach(getNames);
+console.log(newArray);
+</code></pre>
+  <p>
+   Результат - массив с именами
+   <br/>
+   <strong>
+    <em>
+     [“Ivan Ivanov”, “Irina Sidorova”, “Petr Petrov”]
+    </em>
+   </strong>
+   <br/>
+   <a name="map">
+   </a>
+  </p>
+  <h2 id="map">
+   map
+  </h2>
+  <p>
+   map может возвращать результат своей работы:
+  </p>
+  <pre><code class="javascritpt">var array = [1,2,3,4,5,6,7,8,9,10];
+var newArray = [];
+
+newArray = array.map(function(elem){
+    return elem *=elem;
+});
+console.log(newArray);
+</code></pre>
+  <p>
+   результатом работы будет
+   <strong>
+    <em>
+     [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+    </em>
+   </strong>
+   <br/>
+   сделаем то же самое переписывая мсходный массив:
+  </p>
+  <pre><code class="javascript">array.map(function(elem){
+    elem *= elem;
+});
+console.log(array);
+</code></pre>
+  <p>
+   результат
+   <strong>
+    <em>
+     [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+    </em>
+   </strong>
+   <br/>
+   Допустим нам в пришедшем
+   <a href="#json">
+    JSON
+   </a>
+   файле нужны не все данные а только name и age.
+  </p>
+  <pre><code class="javascript">array = response.map(function(elem){
+    return {
+        name: elem.name,
+        age: elem.age
+    };
+});
+console.log(array);
+</code></pre>
+  <p>
+   результат работы :
+   <br/>
+   0: {name: “Ivan Ivanov”, age: 20}
+   <br/>
+   1: {name: “Irina Sidorova”, age: 20}
+   <br/>
+   2: {name: “Petr Petrov”, age: 36}
+   <br/>
+   <a name="filter">
+   </a>
+  </p>
+  <h2 id="filter">
+   Filter
+  </h2>
+  <p>
+   Производит фильтрацию массива по заднным параметрам
+   <br/>
+   Выведем не четные элементы массива:
+  </p>
+  <pre><code class="javascript">var array = [1,2,3,4,5,6,7,8,9,10];
+
+array = array.filter(function(elem){
+    return elem %2;
+});
+console.log(array);
+</code></pre>
+  <p>
+   результат работы:
+   <strong>
+    <em>
+     [1, 3, 5, 7, 9]
+    </em>
+   </strong>
+   <br/>
+   Для вывода четных элементов массива:
+  </p>
+  <pre><code class="javascript">var array = [1,2,3,4,5,6,7,8,9,10];
+
+array = array.filter(function(elem){
+    return elem %3 &amp;&amp; elem !==1;
+});
+console.log(array);
+</code></pre>
+  <p>
+   результат работы:
+   <strong>
+    <em>
+     [2, 4, 5, 7, 8, 10]
+    </em>
+   </strong>
+   <br/>
+   Например мы хотим получить из
+   <a href="#json">
+    JSON
+   </a>
+   файла только тех пользователей, у которых возраст меньше 30 лет:
+  </p>
+  <pre><code class="javascritpt">array = response.filter(function(elem){
+    return elem.age &lt; 30;
+});
+console.log(array);
+</code></pre>
+  <p>
+   результат работы:
+   <br/>
+   0: {index: 0, isActive: true, age: 20, name: “Ivan Ivanov”, gender: “male”, …}
+   <br/>
+   1: {index: 1, isActive: true, age: 20, name: “Irina Sidorova”, gender: “female”, …}
+   <br/>
+   <a name="every_some">
+   </a>
+  </p>
+  <h2 id="every-some">
+   every и some
+  </h2>
+  <p>
+   Данные методы используют для проверки (валидации) элементов масства
+   <br/>
+   <strong>
+    <em>
+     every
+    </em>
+   </strong>
+   вернет true усли все элементы массива удовлетворяют условию.
+   <br/>
+   <strong>
+    <em>
+     some
+    </em>
+   </strong>
+   вернет true если хотя бы один элемент удовлетворяет условию.
+   <br/>
+   Например, мы хотим узнать все ли элементы массива положительные
+  </p>
+  <pre><code class="javascript">var array = [1,2,3,4,5,6,7,8,9,10,-1,-2,-3]; 
+
+array = array.every(function(elem){
+    return elem &gt; 0;
+});
+console.log(array);
+</code></pre>
+  <p>
+   вернет false
+  </p>
+  <pre><code class="javascript">var array = [1,2,3,4,5,6,7,8,9,10,-1,-2,-3]; 
+
+array = array.some(function(elem){
+    return elem &gt; 0;
+});
+console.log(array);
+</code></pre>
+  <p>
+   вернет true
+   <br/>
+   Проверим есть ли у всех в
+   <a href="#json">
+    JSON
+   </a>
+   файле email:
+  </p>
+  <pre><code class="javascript"> array = response.every(function(elem){
+    return elem.email;
+});
+console.log(array);
+</code></pre>
+  <p>
+   ответ true
+  </p>
+  <p>
+   <a name="reduce_reduceRight">
+   </a>
+  </p>
+  <h2 id="reduce-reduceright">
+   reduce и reduceRight
+  </h2>
+  <p>
+   Используются для вычисления единственного значения из массива (свертка массива).Применяют callback function к каждому элементу массива сохраняя промежуточный результат. Так же функции можно передать начальное значение. Отличаются направлением обработки данных.
+  </p>
+  <pre><code class="javascript">var array = [1,2,3,4,5,6,7,8,9,10,-1,-2,-3];
+var flattened = [[0,1],[2,3],[4,5]];
+
+array = array.reduce(function(sum, elem){
+    return sum +=elem;
+});
+console.log(array);
+</code></pre>
+  <p>
+   В sum будут прибаляться значения элементов массива. В итоге получим сумму элементов
+   <strong>
+    <em>
+     49
+    </em>
+   </strong>
+   <br/>
+   Так же можно указать значение инициализации. Если его нет, то оно будет равно значению первого элемента массива.
+  </p>
+  <pre><code class="javascritpt">var array = [1,2,3,4,5,6,7,8,9,10,-1,-2,-3];
+var flattened = [[0,1],[2,3],[4,5]];
+
+array = array.reduce(function(sum, elem){
+    return sum +=elem;
+},10);
+console.log(array);
+</code></pre>
+  <p>
+   В примере выше значение инициализации равно 10. Соответственно результат будет
+   <strong>
+    <em>
+     59
+    </em>
+   </strong>
+   <br/>
+   Приобразуем двумерный массив
+   <strong>
+    <em>
+     flattened
+    </em>
+   </strong>
+   в одномерный массив. Примаеним функцию
+   <strong>
+    <em>
+     concat
+    </em>
+   </strong>
+   .
+  </p>
+  <pre><code class="javascript">var flattened = [[0,1],[2,3],[4,5]];
+
+array = flattened.reduce(function(sum, elem){
+    return sum.concat(elem);
+});
+console.log(array);
+</code></pre>
+  <p>
+   Получим массив
+   <strong>
+    <em>
+     [0, 1, 2, 3, 4, 5]
+    </em>
+   </strong>
+   <br/>
+   Еще один пример:
+   <br/>
+   Мы получили новый JSON файл - список друзей и книг которые у них есть. В данном примере неоходимо передать значение инициализации([“1984”]) - название первой книги в списке. Иначе произойдет ошибка, так как reduce получит не первый элемент массива а объект.
+  </p>
+  <pre><code class="javascript">var friends = [
+    {name: "Anna",books:["Bible, Harry Potter"]},
+    {name:"Bob",books:["War and peace","Romeo and Juliet"]},
+    {name:"Alice",books:["The Lord of the Rings","The Shining"]}
+];
+array = friends.reduce(function(sum, elem){
+    return sum.concat(elem.books);
+},["1984"]);
+console.log(array);
+</code></pre>
+  <p>
+   Результат
+   <strong>
+    <em>
+     [“1984”, “Bible, Harry Potter”, “War and peace”, “Romeo and Juliet”, “The Lord of the Rings”, “The Shining”]
+    </em>
+   </strong>
+   <br/>
+   При использовании вместо reduce - reduceRight
+  </p>
+  <pre><code class="javascript">var friends = [
+    {name: "Anna",books:["Bible, Harry Potter"]},
+    {name:"Bob",books:["War and peace","Romeo and Juliet"]},
+    {name:"Alice",books:["The Lord of the Rings","The Shining"]}
+];
+array = friends.reduceRight(function(sum, elem){
+    /* spread ES6 8 */
+    return [...sum, ...elem.books];
+},["1984"]);
+console.log(array);
+</code></pre>
+  <p>
+   Результат будет следующим :
+   <strong>
+    <em>
+     [“1984”, “The Lord of the Rings”, “The Shining”, “War and peace”, “Romeo and Juliet”, “Bible, Harry Potter”]
+    </em>
+   </strong>
+  </p>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/highlight.min.js">
+  </script>
+  <script>
+   hljs.initHighlightingOnLoad();
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   MathJax.Hub.Config({"showProcessingMessages" : false,"messageStyle" : "none","tex2jax": { inlineMath: [ [ "$", "$" ] ] }});
+  </script>
+ </body>
+</html>
